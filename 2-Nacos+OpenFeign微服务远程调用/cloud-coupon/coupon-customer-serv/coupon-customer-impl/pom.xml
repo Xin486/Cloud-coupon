@@ -26,13 +26,13 @@
 
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>coupon-calculation-api</artifactId>
+            <artifactId>coupon-calculation-impl</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>coupon-template-api</artifactId>
+            <artifactId>coupon-template-impl</artifactId>
             <version>${project.version}</version>
         </dependency>
 
@@ -44,6 +44,11 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <!--openfeign组件-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
         <!-- 负载均衡组件 -->

@@ -58,6 +58,23 @@ spring:
         naming-load-cache-at-start: false
         username: nacos
         password: nacos
+    openfeign:
+      client:
+        default-config:
+        config:
+          coupon-template-feign-client:
+            connect-timeout: 2000
+            read-timeout: 3000
+            loggerLevel: full
+          coupon-calculation-feign-client:
+            connect-timeout: 2000
+            read-timeout: 3000
+            logger-level: full
+
+
+
 logging:
   level:
     top.muteki.coupon: debug
+    top.muteki.coupon.customer.feign.TemplateService: debug
+    top.muteki.coupon.customer.feign.CalculationService: debug
