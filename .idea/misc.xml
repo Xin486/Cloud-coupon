@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/1-Nacos+WebClient微服务远程调用/cloud-coupon/pom.xml" />
         <option value="$PROJECT_DIR$/2-Nacos+OpenFeign微服务远程调用/cloud-coupon/pom.xml" />
+        <option value="$PROJECT_DIR$/1-Nacos+WebClient的微服务远程调用/cloud-coupon/pom.xml" />
       </list>
     </option>
   </component>
